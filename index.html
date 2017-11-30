@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Taules de multiplicar</title>
+	<!--Enllaç al full d'estils CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+</head>
+<body>
+	<h1>
+		Taula de multiplicar
+	</h1>
+
+			<script> 
+		var x=prompt("Quina taula de multiplicar vols entre l'1 i el 10?");
+		x=parseInt(x);
+		if (x<=10) {
+		
+		document.write("Taula del " +x+"");
+			for(y=0; y<=10; y++) {
+				document.write(""+x+"x "+y+"="+x*y+"");
+			}
+		}
+	
+	</script>
+	
+</body>
+
+</html>
